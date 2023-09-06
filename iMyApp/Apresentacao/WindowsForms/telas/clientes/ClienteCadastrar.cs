@@ -1,4 +1,5 @@
-﻿using Negocio.Entidades;
+﻿using Negocio.Comum;
+using Negocio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,8 +19,18 @@ namespace WindowsForms.telas.clientes
             InitializeComponent();
 
             var cliente = new Cliente();
-
+           
             var colaborador = new Colaborador();
+
+
+        }
+
+        private void btnOk_Click(object sender, EventArgs e)
+        {
+            var cliente = new Cliente();
+            cliente.Cpf = txtCpf.Text;
+            cliente.Nome = txtNomeCompleto.Text;
+          
 
         }
     }
