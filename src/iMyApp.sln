@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Apresentacao", "1-Apresen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Aplicacao", "2-Aplicacao", "{0DEAE976-80FE-4126-9140-89D9E3778008}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsForms", "Apresentacao\WindowsForms\WindowsForms.csproj", "{A60CE0B1-CDBB-4450-815E-E8D4277D4DFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "Apresentacao\WindowsForms\WindowsForms.csproj", "{A60CE0B1-CDBB-4450-815E-E8D4277D4DFD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Negocio", "Aplicacao\Negocio\Negocio.csproj", "{18C74BAB-BE2B-4604-B332-8679F2E7A171}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Aplicacao\Negocio\Negocio.csproj", "{18C74BAB-BE2B-4604-B332-8679F2E7A171}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Infra\Database\Database.csproj", "{F50F907F-201E-49FD-9E5F-1C345A2C7F0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Infra\Database\Database.csproj", "{F50F907F-201E-49FD-9E5F-1C345A2C7F0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
