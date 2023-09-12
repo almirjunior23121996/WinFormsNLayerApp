@@ -45,23 +45,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Senai.CEPEAS21103952\\.nuget\\packages\\": {},
+    "C:\\Users\\Senai\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DanilloLopes\\iMyApp\\Apresentacao\\WindowsForms\\WindowsForms.csproj",
+      "projectUniqueName": "D:\\Almir\\iMyApp\\Apresentacao\\WindowsForms\\WindowsForms.csproj",
       "projectName": "WindowsForms",
-      "projectPath": "D:\\DanilloLopes\\iMyApp\\Apresentacao\\WindowsForms\\WindowsForms.csproj",
-      "packagesPath": "C:\\Users\\Senai.CEPEAS21103952\\.nuget\\packages\\",
-      "outputPath": "D:\\DanilloLopes\\iMyApp\\Apresentacao\\WindowsForms\\obj\\",
+      "projectPath": "D:\\Almir\\iMyApp\\Apresentacao\\WindowsForms\\WindowsForms.csproj",
+      "packagesPath": "C:\\Users\\Senai\\.nuget\\packages\\",
+      "outputPath": "D:\\Almir\\iMyApp\\Apresentacao\\WindowsForms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Senai.CEPEAS21103952\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Senai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -77,8 +77,8 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "D:\\DanilloLopes\\iMyApp\\Aplicacao\\Negocio\\Negocio.csproj": {
-              "projectPath": "D:\\DanilloLopes\\iMyApp\\Aplicacao\\Negocio\\Negocio.csproj"
+            "D:\\Almir\\iMyApp\\Aplicacao\\Negocio\\Negocio.csproj": {
+              "projectPath": "D:\\Almir\\iMyApp\\Aplicacao\\Negocio\\Negocio.csproj"
             }
           }
         }

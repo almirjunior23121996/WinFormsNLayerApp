@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hq/XsetDrBCfSKsbAqYoAmtl1JaUzOWsg93/+uQt1W3j/6g60kjTPvmyGL3oahgbUitLuCvwaEOMqcZ0ZQyvyQ==",
+  "dgSpecHash": "ROO820XxLxfcICQWBS5khkt/V+pn/5Lesuxe12b6a780nwBDiO+dyp+SzdIAl0LqhYAWhRER9Ocp0RVVMA8HyA==",
   "success": true,
-  "projectFilePath": "D:\\DanilloLopes\\iMyApp\\Infra\\Database\\Database.csproj",
+  "projectFilePath": "D:\\Almir\\iMyApp\\Infra\\Database\\Database.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

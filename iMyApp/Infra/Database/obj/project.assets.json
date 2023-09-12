@@ -8,23 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Senai.CEPEAS21103952\\.nuget\\packages\\": {},
+    "C:\\Users\\Senai\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DanilloLopes\\iMyApp\\Infra\\Database\\Database.csproj",
+      "projectUniqueName": "D:\\Almir\\iMyApp\\Infra\\Database\\Database.csproj",
       "projectName": "Database",
-      "projectPath": "D:\\DanilloLopes\\iMyApp\\Infra\\Database\\Database.csproj",
-      "packagesPath": "C:\\Users\\Senai.CEPEAS21103952\\.nuget\\packages\\",
-      "outputPath": "D:\\DanilloLopes\\iMyApp\\Infra\\Database\\obj\\",
+      "projectPath": "D:\\Almir\\iMyApp\\Infra\\Database\\Database.csproj",
+      "packagesPath": "C:\\Users\\Senai\\.nuget\\packages\\",
+      "outputPath": "D:\\Almir\\iMyApp\\Infra\\Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Senai.CEPEAS21103952\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Senai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
