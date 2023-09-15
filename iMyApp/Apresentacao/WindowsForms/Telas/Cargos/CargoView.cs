@@ -37,8 +37,6 @@ namespace WindowsForms.Telas.Cargos
 
             var resultado = cargoRepository.Inserir(novoCargo);
 
-            gvCargos.DataSource = cargoRepository.ObterTodos();
-
             if (resultado)
             {
                 MessageBox.Show("Cargo cadastrado com sucesso");
@@ -69,6 +67,13 @@ namespace WindowsForms.Telas.Cargos
                 txtCargo.Text = row.Cells[1].Value.ToString();
                 chkStatus.Checked = Convert.ToBoolean(row.Cells[2].Value.ToString());
             }
+        }
+
+        private void btnRecarregar_Click(object sender, EventArgs e)
+        {
+            var cargoRepository = new CargoRepository();
+            var dataTable = cargoRepository.ObterTodos();
+            gvCargos.DataSource = dataTable;
         }
     }
 }

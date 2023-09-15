@@ -125,6 +125,7 @@
             btnRecarregar.TabIndex = 3;
             btnRecarregar.Text = "Recarregar";
             btnRecarregar.UseVisualStyleBackColor = true;
+            btnRecarregar.Click += btnRecarregar_Click;
             // 
             // CargoView
             // 
