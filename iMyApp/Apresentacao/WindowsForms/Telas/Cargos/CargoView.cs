@@ -50,9 +50,7 @@ namespace WindowsForms.Telas.Cargos
 
         private void CargoView_Load(object sender, EventArgs e)
         {
-            var cargoRepository = new CargoRepository();
-            var dataTable = cargoRepository.ObterTodos();
-            gvCargos.DataSource = dataTable;
+            CarregarDados();
         }
 
 
@@ -70,6 +68,11 @@ namespace WindowsForms.Telas.Cargos
         }
 
         private void btnRecarregar_Click(object sender, EventArgs e)
+        {
+            CarregarDados();
+        }
+
+        private void CarregarDados()
         {
             var cargoRepository = new CargoRepository();
             var dataTable = cargoRepository.ObterTodos();
