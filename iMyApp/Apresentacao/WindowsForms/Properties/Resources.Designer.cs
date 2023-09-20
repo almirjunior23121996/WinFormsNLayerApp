@@ -63,6 +63,16 @@ namespace WindowsForms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2023_09_19_210600 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2023-09-19 210600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sem_foto {
             get {
                 object obj = ResourceManager.GetObject("sem-foto", resourceCulture);

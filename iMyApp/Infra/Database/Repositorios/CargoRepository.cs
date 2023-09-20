@@ -5,8 +5,26 @@ using System.Data.SqlClient;
 
 namespace Database.Repositorios
 {
+    /// <summary>
+    /// <c>CargoRepository</c> - Executa comandos SQL (CRUD) na tabela de [dbo].[cargo]
+    /// <example>Exemplo:
+    ///     var repositorio = new CargoRepository();
+    /// </example>
+    /// </summary>
     public class CargoRepository
     {
+        /// <summary>
+        /// Insere um novo registro na tabela Cargo
+        /// <example>Exemplo:
+        /// <code>
+        ///     var cargorepositorio = new CargoRepository();
+        ///     var cargo = new cargo ("Nome", "Status");
+        ///     var resultado = cargoRepositorio.Inserir(cargo);
+        /// </code>
+        /// </example>
+        /// </summary>
+        /// <param name="cargo">Entidade ->Cargo</param>
+        /// <returns>true ou false</returns>
         public bool Inserir(Cargo cargo)
         {
             try
